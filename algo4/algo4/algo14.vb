@@ -6,62 +6,86 @@
     Dim sze As Integer
     Dim counter As Integer = 0
     Dim temp As Integer
-    Dim strl1 As String
-    Dim strl2 As String
+    Dim szedet As Boolean = False
     Dim finallist As String = ""
-    Dim loc1 As Integer
-    Dim loc2 As Integer
+
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnSize.Click
-        sze = Convert.ToInt32(inputSize.Text)
-        ReDim list(sze - 1)
+        If inputSize.Text = "" Then
+            MessageBox.Show("Please have an input!")
+        Else
+            sze = Convert.ToInt32(inputSize.Text)
+            ReDim list(sze - 1)
+            szedet = True
+        End If
     End Sub
 
     Private Sub btnList_Click(sender As Object, e As EventArgs) Handles btnList.Click
-        If counter <= sze - 1 Then
-            list(counter) = Convert.ToInt32(inputList.Text)
+        If szedet = False Then
+            MessageBox.Show("Please enter Size!")
+        ElseIf inputList.Text = "" Then
+            MessageBox.Show("Please enter an Input!")
+        Else
 
-            lblList.Text = lblList.Text + " " + list(counter).ToString
+            If counter <= sze - 1 Then
+                list(counter) = Convert.ToInt32(inputList.Text)
 
-            counter += 1
+                lblList.Text = lblList.Text + " " + list(counter).ToString
+
+                counter += 1
+            End If
         End If
+
 
     End Sub
 
     Private Sub btnSort_Click(sender As Object, e As EventArgs) Handles btnSort.Click
-        For index = sze - 2 To 0 Step -1
-            For index2 = 0 To index
-                finallist = ""
-                If list(index2) > list(index2 + 1) Then
-                    temp = list(index2)
-                    list(index2) = list(index2 + 1)
-                    list(index2 + 1) = temp
-                    strl1 = list(index2).ToString.Length
-                    strl2 = list(index2 + 1).ToString.Length
-                    For index3 = 0 To sze - 1
-                        finallist = finallist + " " + list(index3).ToString
-                    Next
-                    rtbList.Text = rtbList.Text + finallist + vbCrLf
+        If szedet = False Then
+            MessageBox.Show("Please enter Size!")
 
-                    loc1 = rtbList.Find(list(index2).ToString)
-                    loc2 = rtbList.Find(list(index2 + 1).ToString)
-                    rtbList.Select(loc1, strl1)
-                    rtbList.SelectionColor = Color.Red
-                    rtbList.Select(loc2, strl2)
-                    rtbList.SelectionColor = Color.Red
+        Else
+            For index = sze - 2 To 0 Step -1
+                For index2 = 0 To index
+                    finallist = ""
+                    If list(index2) > list(index2 + 1) Then
+                        temp = list(index2)
+                        list(index2) = list(index2 + 1)
+                        list(index2 + 1) = temp
 
-                Else
-                    For index3 = 0 To sze - 1
-                        finallist = finallist + " " + list(index3).ToString
-                    Next
-                    rtbList.Text = rtbList.Text + finallist + vbNewLine
-
-                End If
+                        For index3 = 0 To sze - 1
+                            finallist = finallist + " " + list(index3).ToString
+                        Next
+                        rtbList.Text = rtbList.Text + finallist + vbCrLf
 
 
+                    Else
+                        For index3 = 0 To sze - 1
+                            finallist = finallist + " " + list(index3).ToString
+                        Next
+                        rtbList.Text = rtbList.Text + finallist + vbCrLf
+
+                    End If
+
+
+                Next
             Next
-        Next
+        End If
+    End Sub
+
+    Private Sub press1(sender As Object, e As KeyPressEventArgs) Handles inputSize.KeyPress
+        If Asc(e.KeyChar) <> 13 AndAlso Asc(e.KeyChar) <> 8 AndAlso Not IsNumeric(e.KeyChar) Then
+            MessageBox.Show("Please enter numbers only")
+            e.Handled = True
+        End If
+
+    End Sub
+
+    Private Sub press2(sender As Object, e As KeyPressEventArgs) Handles inputList.KeyPress
+        If Asc(e.KeyChar) <> 13 AndAlso Asc(e.KeyChar) <> 8 AndAlso Not IsNumeric(e.KeyChar) Then
+            MessageBox.Show("Please enter numbers only")
+            e.Handled = True
+        End If
 
     End Sub
 End Class

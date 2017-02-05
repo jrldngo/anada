@@ -28,9 +28,10 @@ Partial Class algo15
         Me.inputList = New System.Windows.Forms.TextBox()
         Me.btnSize = New System.Windows.Forms.Button()
         Me.btnList = New System.Windows.Forms.Button()
-        Me.output = New System.Windows.Forms.Label()
         Me.btnEval = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.output = New System.Windows.Forms.RichTextBox()
+        Me.lblList = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -57,6 +58,7 @@ Partial Class algo15
         '
         Me.inputSize.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.inputSize.Location = New System.Drawing.Point(148, 24)
+        Me.inputSize.MaxLength = 2
         Me.inputSize.Name = "inputSize"
         Me.inputSize.Size = New System.Drawing.Size(100, 29)
         Me.inputSize.TabIndex = 2
@@ -65,6 +67,7 @@ Partial Class algo15
         '
         Me.inputList.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.inputList.Location = New System.Drawing.Point(148, 56)
+        Me.inputList.MaxLength = 3
         Me.inputList.Name = "inputList"
         Me.inputList.Size = New System.Drawing.Size(100, 29)
         Me.inputList.TabIndex = 3
@@ -87,15 +90,6 @@ Partial Class algo15
         Me.btnList.Text = "Enter"
         Me.btnList.UseVisualStyleBackColor = True
         '
-        'output
-        '
-        Me.output.AutoSize = True
-        Me.output.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.output.Location = New System.Drawing.Point(185, 238)
-        Me.output.Name = "output"
-        Me.output.Size = New System.Drawing.Size(0, 24)
-        Me.output.TabIndex = 6
-        '
         'btnEval
         '
         Me.btnEval.Location = New System.Drawing.Point(267, 268)
@@ -109,20 +103,38 @@ Partial Class algo15
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.Control
         Me.Button1.Enabled = False
-        Me.Button1.Location = New System.Drawing.Point(45, 78)
+        Me.Button1.Location = New System.Drawing.Point(46, 102)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(536, 157)
         Me.Button1.TabIndex = 8
         Me.Button1.UseVisualStyleBackColor = False
+        '
+        'output
+        '
+        Me.output.Location = New System.Drawing.Point(74, 116)
+        Me.output.Name = "output"
+        Me.output.Size = New System.Drawing.Size(484, 132)
+        Me.output.TabIndex = 9
+        Me.output.Text = ""
+        '
+        'lblList
+        '
+        Me.lblList.AutoSize = True
+        Me.lblList.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblList.Location = New System.Drawing.Point(335, 64)
+        Me.lblList.Name = "lblList"
+        Me.lblList.Size = New System.Drawing.Size(0, 24)
+        Me.lblList.TabIndex = 10
         '
         'algo15
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(617, 338)
+        Me.Controls.Add(Me.lblList)
+        Me.Controls.Add(Me.output)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnEval)
-        Me.Controls.Add(Me.output)
         Me.Controls.Add(Me.btnList)
         Me.Controls.Add(Me.btnSize)
         Me.Controls.Add(Me.inputList)
@@ -142,7 +154,8 @@ Partial Class algo15
     Friend WithEvents inputList As TextBox
     Friend WithEvents btnSize As Button
     Friend WithEvents btnList As Button
-    Friend WithEvents output As Label
     Friend WithEvents btnEval As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents output As RichTextBox
+    Friend WithEvents lblList As Label
 End Class

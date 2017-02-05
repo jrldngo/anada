@@ -4,7 +4,7 @@
     Dim sze As Integer
     Dim sizedet As Boolean = False
     Public Sub Button1_Click(sender As Object, e As EventArgs) Handles btnSize.Click
-        If inputSize.Text = "" And Convert.ToInt32(inputSize.Text) < 0 Then
+        If inputSize.Text = "" Then
             MessageBox.Show("Please enter Input!")
         Else
             counter = 0
@@ -53,8 +53,8 @@
             Next
 
             If det = False Then
-                MessageBox.Show("Character was not found :(")
-
+                rtbOutput.Text = ""
+                rtbOutput.Text = "Character is not found!"
             End If
         End If
     End Sub
@@ -65,5 +65,23 @@
             e.Handled = True
         End If
 
+    End Sub
+
+    Private Sub press2(sender As Object, e As KeyPressEventArgs) Handles inputAdd.KeyPress
+        If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) Then
+            MessageBox.Show("Please enter letters only")
+
+
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub press3(sender As Object, e As KeyPressEventArgs) Handles inputFind.KeyPress
+        If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) Then
+            MessageBox.Show("Please enter letters only")
+
+
+            e.Handled = True
+        End If
     End Sub
 End Class

@@ -67,6 +67,7 @@ Partial Class algo12
         '
         Me.inputAdd.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.inputAdd.Location = New System.Drawing.Point(125, 58)
+        Me.inputAdd.MaxLength = 1
         Me.inputAdd.Name = "inputAdd"
         Me.inputAdd.Size = New System.Drawing.Size(64, 29)
         Me.inputAdd.TabIndex = 3
@@ -115,6 +116,7 @@ Partial Class algo12
         '
         Me.inputFind.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.inputFind.Location = New System.Drawing.Point(336, 40)
+        Me.inputFind.MaxLength = 1
         Me.inputFind.Name = "inputFind"
         Me.inputFind.Size = New System.Drawing.Size(100, 29)
         Me.inputFind.TabIndex = 9

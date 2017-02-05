@@ -36,6 +36,7 @@ Partial Class algo14
         'inputSize
         '
         Me.inputSize.Location = New System.Drawing.Point(109, 12)
+        Me.inputSize.MaxLength = 2
         Me.inputSize.Name = "inputSize"
         Me.inputSize.Size = New System.Drawing.Size(67, 20)
         Me.inputSize.TabIndex = 0
@@ -43,6 +44,7 @@ Partial Class algo14
         'inputList
         '
         Me.inputList.Location = New System.Drawing.Point(109, 48)
+        Me.inputList.MaxLength = 3
         Me.inputList.Name = "inputList"
         Me.inputList.Size = New System.Drawing.Size(67, 20)
         Me.inputList.TabIndex = 1

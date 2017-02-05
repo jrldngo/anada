@@ -1,0 +1,80 @@
+C:\Users\user\AppData\Local\Temporary Projects\algo4\bin\Debug\algo4.exe.config
+C:\Users\user\AppData\Local\Temporary Projects\algo4\bin\Debug\algo4.exe
+C:\Users\user\AppData\Local\Temporary Projects\algo4\bin\Debug\algo4.pdb
+C:\Users\user\AppData\Local\Temporary Projects\algo4\bin\Debug\algo4.xml
+C:\Users\user\AppData\Local\Temporary Projects\algo4\obj\Debug\algo4.vbprojResolveAssemblyReference.cache
+C:\Users\user\AppData\Local\Temporary Projects\algo4\obj\Debug\algo4.Form1.resources
+C:\Users\user\AppData\Local\Temporary Projects\algo4\obj\Debug\algo4.Resources.resources
+C:\Users\user\AppData\Local\Temporary Projects\algo4\obj\Debug\algo4.vbproj.GenerateResource.Cache
+C:\Users\user\AppData\Local\Temporary Projects\algo4\obj\Debug\algo4.exe
+C:\Users\user\AppData\Local\Temporary Projects\algo4\obj\Debug\algo4.xml
+C:\Users\user\AppData\Local\Temporary Projects\algo4\obj\Debug\algo4.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\bin\Debug\algo4.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\bin\Debug\algo4.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\bin\Debug\algo4.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\bin\Debug\algo4.xml
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.vbprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.Form1.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.vbproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.Form2.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.Form3.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.algo7.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.algo1.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.algo2.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.algo3.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\algo4\algo4\obj\Debug\algo4.mainpage.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\bin\Debug\algo4.exe.config
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.exe
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.xml
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.pdb
+C:\Users\Jim Hernando\Desktop\algo4\algo4\bin\Debug\algo4.exe
+C:\Users\Jim Hernando\Desktop\algo4\algo4\bin\Debug\algo4.pdb
+C:\Users\Jim Hernando\Desktop\algo4\algo4\bin\Debug\algo4.xml
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.vbprojResolveAssemblyReference.cache
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo1.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo2.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo3.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo7.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.Form1.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.Form2.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.Form3.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.mainpage.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.Resources.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.vbproj.GenerateResource.Cache
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.Algo8.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo10.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo11.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo12.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo13.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo14.resources
+C:\Users\Jim Hernando\Desktop\algo4\algo4\obj\Debug\algo4.algo9.resources
+C:\Users\user\Desktop\algo4\algo4\bin\Debug\algo4.exe.config
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.exe
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.xml
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.pdb
+C:\Users\user\Desktop\algo4\algo4\bin\Debug\algo4.exe
+C:\Users\user\Desktop\algo4\algo4\bin\Debug\algo4.pdb
+C:\Users\user\Desktop\algo4\algo4\bin\Debug\algo4.xml
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.vbprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo1.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo10.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo11.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo12.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo13.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo14.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo2.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo3.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo7.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.Algo8.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo9.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.Form1.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.Form2.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.Form3.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.mainpage.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.Resources.resources
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.vbproj.GenerateResource.Cache
+C:\Users\user\Desktop\algo4\algo4\obj\Debug\algo4.algo15.resources
